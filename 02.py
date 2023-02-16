@@ -48,8 +48,8 @@ with TelegramClient('ali_fatahi', api_id, api_hash) as client:
     print("Connected")      
     f = open("blacklist.txt", "r")
     blacklist = f.read()  
-    f = open("message.txt", "r",encoding = "utf-8")
-    message = f.read() 
+#     f = open("message.txt", "r",encoding = "utf-8")
+#     message = f.read() 
     targets_count = 0
     i = 0
     for dialog in client.iter_dialogs():       
