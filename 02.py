@@ -87,10 +87,10 @@ with TelegramClient('ali_fatahi', api_id, api_hash) as client:
     # for user in client.iter_participants('fallen_games', search='karoakhgar'):
     #     print(user.username)
     # print(is_member('A','fallen_games'))  
-    f = open("blacklist.txt", "r")
-    blacklist = f.read()  
-    f = open("message.txt", "r",encoding = "utf-8")
-    message = f.read() 
+#     f = open("blacklist.txt", "r")
+#     blacklist = f.read()  
+#     f = open("message.txt", "r",encoding = "utf-8")
+#     message = f.read() 
     targets_count = 0
     i = 0
     for dialog in client.iter_dialogs():       
