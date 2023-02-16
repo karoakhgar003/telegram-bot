@@ -25,6 +25,7 @@ from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.types import ChannelParticipantsSearch
 
 def is_member(name,channel_username,user_id):
+    print("checking")
     for user in client.iter_participants(channel_username, search=name):
         if user.id == user_id:
             return True
